@@ -1,0 +1,23 @@
+.default {
+    background-color: transparent;
+    color: white;
+    font-size: x-large;
+    font-family: Insaniburger; 
+}
+
+table {
+    width: 100%;
+    text-align: center;
+}
+
+#c100 {
+    color: lightgreen;
+}
+
+#c50 {
+    color: lightblue;
+}
+
+#miss {
+    color: rgb(255, 110, 110)
+}
