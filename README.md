@@ -8,7 +8,9 @@ Displays your current pp and pp if FCed along with your count of 100s, 50s, and 
 
 ## How to use
 
-For optimal results, requires the following output patterns for StreamCompanion:
+Extract the zip to somewhere.  
+
+The counter requires the following output patterns in StreamCompanion:
 
 | Name          | Content          |
 |:-------------:|:----------------:|
@@ -26,3 +28,7 @@ In OBS or Streamlabs OBS, add `counter.html` as a browser source.
 
 Simply compile the project with `haxe build.hxml`.  
 The finished script will sit in `/bin/js/main.js`.  
+
+## Other font
+
+By default this uses the [Insaniburger](https://www.dafont.com/de/insaniburger.font) font (you need to install it if you want to use it as well). It can be changed by replacing `Insaniburger` with any other font in `css/main.css`.
